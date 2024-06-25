@@ -1,0 +1,59 @@
+/* General styles for the Experience page */
+body {
+  margin: 0;
+  font-family: "Open Sans", serif;
+  background-color: #edfffe;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: calc(100vh - 60px); /* Adjust height to account for Navbar and Banner */
+}
+
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sidebar ul li.active {
+  color: #000;
+}
+
+.sidebar ul li.inactive {
+  color: #888;
+}
+
+.sidebar ul li:hover {
+  color: #333;
+}
+
+.content {
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}

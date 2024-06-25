@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif, serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.App-header h1 {
+  font-size: 3rem;
+}
