@@ -14,8 +14,8 @@ const experiences = [
         duration: "May 2024 - Present",
         detailsLink: "Davidson Data Visualization Lab",
         category: "Internship",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
-        technologies: ["D3.js", "React", "JavaScript"]
+        description: "I'm working on serendipitous search on live events by designing different visualization tools.",
+        technologies: ["D3.js","Leaflet","JavaScript","SQL"]
     },
     {
         id: 2,
@@ -26,7 +26,8 @@ const experiences = [
         detailsLink: "My Life: A 2D Platformer Reflecting Real-Life Choices and Growth",
         githubLink: "https://github.com/KatherineHu-2025/Final-Project-2D-Platform-Game",
         category: "Project",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
+        description: "Have you ever imagined that you can choose a different path?",
+        technologies: ["C#", "Unity"]
     },
     {
         id: 3,
@@ -36,7 +37,8 @@ const experiences = [
         duration: "September 2021 - December 2023",
         detailsLink: "Center for Teaching and Learning",
         category: "Experience",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
+        description: "Embedded Tutor for CSC121: Programming & Problem Solving, CSC321: Analysis of Algorithm",
+        technologies: ["Python", "Algorithm","Debugging"]
     },
     {
         id: 4,
@@ -47,7 +49,8 @@ const experiences = [
         detailsLink: "Designing a Classical Music Search and Review Website",
         githubLink: "https://github.com/KatherineHu-2025/Classcial-Music-Concert-Search-Map-with-Review",
         category: "Project",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
+        description: "We build a classical music concerts search & review website.",
+        technologies: ["SQL", "HTML","CSS","JavaScript","Node.js"],
     },
     {
         id: 5,
@@ -57,7 +60,8 @@ const experiences = [
         duration: "June 2023 - September 2023",
         detailsLink: "Davidson Research Initiative Summer Research Fellowship",
         category: "Internship",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
+        description: "We designed a concurrent bucket with lock-free insertion, deletion, and containment operations.",
+        technologies: ["Java", "Concurrent Programming"],
     },
     {
         id: 6,
@@ -68,7 +72,8 @@ const experiences = [
         detailsLink: "Recognizing American Signs Language Alphabets Using Machine Learning",
         githubLink: "https://github.com/KatherineHu-2025/Recognizing-ASL-letters-",
         category: "Project",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
+        description: "We trained k-NN, SVM, and CNN models to recognize American Sign Language.",
+        technologies: ["Python", "Scikit-Learn","Keras", "Convolutional Neuron Network"],
     },
     {
         id: 7,
@@ -78,7 +83,8 @@ const experiences = [
         duration: "May 2022 - August 2022",
         detailsLink: "iFory Inc.",
         category: "Internship",
-        description: "In this lab, I worked on visualizing data using modern web technologies...",
+        description: "I worked as a market analyst to clean, validate, and visualize market data and develop competitor analysis report.",
+        technologies: ["Python", "Pandas","Matplotlib"],
     }
 ];
 

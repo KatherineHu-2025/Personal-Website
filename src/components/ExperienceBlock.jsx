@@ -1,16 +1,21 @@
+// ExperienceBlock.jsx
 import React from 'react';
 import './ExperienceBlock.css';
 
-const ExperienceBlock = ({ project, handleClick }) => {
+const ExperienceBlock = ({ experience }) => {
   return (
-    <div className="experience-container" onClick={() => handleClick(project.id)}>
+    <div className="experience-block">
       <div className="experience-image-container">
-        <img src={project.image} alt={project.title} className="experience-image" />
-      </div>
-      <div className="experience-info">
-        <a href={`/projects/${project.id}`} className="experience-title">{project.title}</a>
-        <p>{project.role}</p>
-        <p>{project.duration}</p>
+        <img src={experience.image} alt={experience.title} className="experience-image" />
+        <div className="overlay">
+          <h2 className="experience-title">{experience.title}</h2>
+          <p className="experience-description">{experience.description}</p>
+          <div className="tags">
+            {experience.technologies && experience.technologies.map((tech, index) => (
+              <span key={index} className="tag">{tech}</span>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

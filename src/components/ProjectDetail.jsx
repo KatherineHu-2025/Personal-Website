@@ -1,23 +1,25 @@
+// ProjectDetail.jsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import experiences from './ExperienceData'; // Ensure the path is correct
+import experiences from './ExperienceData';
+import styles from './ProjectDetail.module.css';
 
 const ProjectDetail = () => {
-  const { projectId } = useParams();
-  const project = experiences.find(p => p.id === parseInt(projectId, 10));
+  const { id } = useParams();
+  const project = experiences.find(proj => proj.id === parseInt(id, 10));
 
   if (!project) {
     return <div>Project not found</div>;
   }
 
   return (
-    <div className="project-detail-container">
-      <img src={project.image} alt={project.title} className="project-detail-image" />
-      <h1>{project.title}</h1>
-      <p><strong>Role:</strong> {project.role}</p>
-      <p><strong>Duration:</strong> {project.duration}</p>
-      <p><strong>Description:</strong> {project.detailsLink}</p>
-      {project.githubLink && <p><a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub Link</a></p>}
+    <div className={styles.projectDetailContainer}>
+      <img src={project.image} alt={project.title} className={styles.projectDetailImage} />
+      <h1 className={styles.heading}>{project.title}</h1>
+      <p className={styles.paragraph}>{project.description}</p>
+      <h3 className={styles.subHeading}>Details</h3>
+      <p className={styles.paragraph}>{project.details}</p>
+      <a href="/experience" className={styles.link}>Back to Projects</a>
     </div>
   );
 };
