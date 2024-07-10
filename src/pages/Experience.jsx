@@ -56,6 +56,7 @@ const Experience = () => {
 
 	return (
 		<div>
+			<Banner />
 			<div className="experience-page">
 				<div className="title-nav-container">
 					<h1

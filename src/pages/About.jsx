@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Banner from "../components/ConstructionBanner"
-import AboutSection from "../components/AboutSection"
+import WorldMap from "../components/WorldMap";
 
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
     <div>
       <NavBar />
       <Banner />
-      <AboutSection />
+      <WorldMap />
     </div>
   );
 }
