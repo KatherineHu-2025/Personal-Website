@@ -1,4 +1,3 @@
-// Experience.jsx
 import React, { useState, useEffect, useRef } from "react";
 import experiences from "../components/ExperienceData";
 import ExperienceBlock from "../components/ExperienceBlock";

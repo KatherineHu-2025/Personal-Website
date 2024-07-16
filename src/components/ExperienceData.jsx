@@ -14,6 +14,8 @@ const experiences = [
         duration: "May 2024 - Present",
         detailsLink: "Davidson Data Visualization Lab",
         category: "Internship",
+        githubLink: "https://github.com/Davidson-Data-Vis-Lab/Serendipitious-Events",
+        projectPage: "https://davidson-data-vis-lab.github.io/Serendipitious-Events/",
         description: "I'm working on serendipitous search on live events by designing different visualization tools.",
         technologies: ["D3.js","Leaflet","JavaScript","SQL"]
     },
@@ -25,6 +27,7 @@ const experiences = [
         duration: "Feb 2024 - May 2024",
         detailsLink: "My Life: A 2D Platformer Reflecting Real-Life Choices and Growth",
         githubLink: "https://github.com/KatherineHu-2025/Final-Project-2D-Platform-Game",
+        projectPage: "https://play.unity.com/en/games/2cae49f9-0df5-4818-b2c0-94a33557b61b/my-life",
         category: "Project",
         description: "Have you ever imagined that you can choose a different path?",
         technologies: ["C#", "Unity"]

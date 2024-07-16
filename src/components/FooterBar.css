@@ -1,0 +1,25 @@
+/* FooterBar.css */
+.footer-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0); /* Transparent white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .footer-bar a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bar a:hover {
+    color: #0073e6; /* Change color on hover */
+  }
+  
