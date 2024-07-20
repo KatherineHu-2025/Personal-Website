@@ -6,15 +6,15 @@ import AboutSection from "./components/AboutSection";
 import FooterBar from "./components/FooterBar";
 
 function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <div className="content">
-        <AboutSection />
-      </div>
-      <FooterBar />
-    </div>
-  );
+	return (
+		<div className="App">
+			<NavBar />
+			<div className="content">
+				<AboutSection />
+			</div>
+			<FooterBar />
+		</div>
+	);
 }
 
 export default App;

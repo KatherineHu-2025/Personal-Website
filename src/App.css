@@ -1,35 +1,40 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif, serif;
-  background-color: #f0f0f0;
-  color: #333;
+	margin: 0;
+	font-family: Arial, sans-serif, serif;
+	background-color: #f0f0f0;
+	color: #333;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	text-align: center;
 }
 
 .NavBar,
 .AboutSection {
-  flex: 1;
+	flex: 1;
 }
 
 .content {
-  flex: 1;
-  padding-bottom: 20px; /* Adjust this value if necessary to fit the height of the footer bar */
+	flex: 1;
+	padding-bottom: 20px; /* Adjust this value if necessary to fit the height of the footer bar */
 }
 
-
 .App-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* Full viewport height */
 }
 
 .App-header h1 {
-  font-size: 3rem;
+	font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+	.App-header h1 {
+		font-size: 2rem;
+	}
 }
