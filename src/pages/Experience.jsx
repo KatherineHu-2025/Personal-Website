@@ -14,8 +14,12 @@ const Experience = () => {
 	useEffect(() => {
 		if (selectedCategory === "All") {
 			setTitle("What have I done so far?");
-		} else {
-			setTitle(selectedCategory);
+		} else if (selectedCategory === "Project") {
+			setTitle("💡");
+		} else if (selectedCategory === "Internship") {
+			setTitle("👩‍💻");
+		} else if (selectedCategory === "Experience") {
+			setTitle("🏫");
 		}
 	}, [selectedCategory]);
 

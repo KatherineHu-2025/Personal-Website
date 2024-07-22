@@ -142,7 +142,7 @@ html {
 
 p {
 	font-size: 1.1rem; /* Adjusted font size */
-	font-weight: 300; /* Adjusted font size */
+	font-weight: 400; /* Adjusted font size */
 	margin-bottom: 1rem; /* Space between paragraphs */
 }
 
@@ -159,7 +159,6 @@ a {
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
 	.about-container {
-		height: 100vh; /* Full viewport height */
 		padding: 1rem; /* Adjust padding */
 		justify-content: center; /* Center content vertically */
 	}

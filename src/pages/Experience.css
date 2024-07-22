@@ -9,13 +9,6 @@
 	margin-bottom: 40px;
 }
 
-.experience-page .experience-title {
-	font-size: 2rem;
-	padding: 5px;
-	margin-bottom: 20px; /* Adjust margin for spacing */
-	transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
 .experience-page .category-nav-desktop {
 	position: relative;
 	display: inline-flex;
@@ -102,10 +95,6 @@
 @media (max-width: 768px) {
 	.experience-page {
 		padding: 50px 10px;
-	}
-
-	.experience-page .experience-title {
-		display: none; /* Hide the title on mobile */
 	}
 
 	.experience-page .category-nav-desktop {

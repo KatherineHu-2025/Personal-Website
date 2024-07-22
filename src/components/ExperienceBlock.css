@@ -131,6 +131,7 @@
 		background-color: #f8f9fa; /* Light gray background color */
 		padding: 10px; /* Add padding */
 		margin: 0 8px; /* Add margin to avoid padding overflow */
+		transition: none; /* Disable transition on mobile */
 	}
 
 	.experience-block .experience-content {
@@ -139,6 +140,11 @@
 
 	.experience-block .overlay {
 		display: none; /* Hide overlay on mobile */
+	}
+
+	.experience-block:hover {
+		transform: none; /* Disable hover transform on mobile */
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Keep original box-shadow */
 	}
 
 	.experience-block .experience-image-container {
@@ -155,6 +161,7 @@
 
 	.experience-content .experience-title {
 		font-size: 1rem; /* Smaller font size for mobile */
+		margin-bottom: 5px; /* Add space below the title */
 	}
 
 	.experience-block .experience-description {
